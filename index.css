@@ -1,0 +1,44 @@
+body{
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #fdd11e;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    color: white;
+    font-size: 2rem;
+}
+.semiColon{
+    color: #7c660f;
+    padding: 1rem 1.6rem;
+    border-radius: 100%;
+    font-size: 2rem;
+    background-color: #b19215;
+}
+.project{
+    width: 100%;
+    height: 200px;
+    background-color: #ff555a;
+    clip-path: polygon(0% 0%,35% 0%,50% 40%,65% 0%, 100% 0%, 100% 100% ,0% 100%);
+}
